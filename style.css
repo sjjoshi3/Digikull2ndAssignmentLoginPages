@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(199, 230, 220) ;
+}
+
+
+.btn{
+
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    background: aqua;
+    color: #111;
+    font-weight: bold;
+
+}
+
+form span{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+form #Email{
+
+    margin-left: 2.rem;
+}
+
+form input{
+    height: 1.8rem;
+    width: 13rem;
+    border-radius: 10px;
+}
+
+form{
+    margin-bottom: 1.5rem;
+}
+
+form .move{
+    padding: .5rem;
+}
+
+
+#event li{
+    list-style: none;
+    display: inline-flex;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+#title{
+
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    left: 2rem;
+}
+
+.same{
+    font-size: 1.6rem;
+}
+
+.same select option {
+    font-size: 1.2rem;
+}
+
+
+.same select{
+    border-radius: 10px;
+    height: 2.2rem;
+    width: 15rem;
+}
+
+
+.box, .boxl
+{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 40%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.boxl{
+
+    height: 70vh;
+}
+
+.row{
+    
+    display:flex;
+    margin-top: -2rem;
+   
+    width: 100vw;
+    
+
+}
+
+  ul  li{
+    list-style: none;
+    border: 1px solid black;
+    height: 2rem;
+    width: 23vw;
+    text-align: center;
+    justify-content: center;
+    background-color: beige;
+    font-weight: bold;
+
+    cursor: pointer;
+    
+  
+    
+}
+
+ul li:hover{
+
+    font-weight: bolder;
+}
